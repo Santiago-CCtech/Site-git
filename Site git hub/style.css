@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(17, 8, 39);
+    color: white;
+}
+
+video {
+  width: 300px;
+  height: 300px;
+}
+
+.integrantes {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.integrante {
+    align-items: center;
+    gap: 70px;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img, .img1 {
+    height: 220px;
+    width: 200px;
+    border-radius: 5%;
+}
+
+.detalhes {
+    margin-top: 10px;
+}
+
+.title{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+.title h1{
+    background-color: rgba(137, 43, 226, 0.24);
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.intro, .features, .getting-started, .resources, .video {
+    margin-bottom: 2rem;
+  }
+  
+  .intro h1, .features h2, .getting-started h2, .resources h2, .video h2 {
+    margin-bottom: 1rem;
+    color: #5f42f1;
+  }
+  
+  .intro p, .features ul, .getting-started ol, .resources ul, .video iframe {
+    margin-bottom: 1rem;
+  }
+
+  main {
+    padding: 20px 40px;
+  }
+
+  p, dl {
+    margin-bottom: 1rem;
+  }
+  
+  dl {
+    padding-left: 20px;
+  }
+  
+  dt {
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  dd {
+    margin-left: 20px;
+  }
+
+  .logo-git {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+    display: block;
+  }
+
+  audio {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 500px; /* Define um tamanho máximo para o player de áudio */
+  }
+
+
+

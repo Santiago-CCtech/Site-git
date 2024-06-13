@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comandos Git</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="/">Controle de versões git</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="Comandos.html">Comandos</a></li>
+          <li><a href="github.html">GitHub</a></li>
+          <li><a href="Alunos.html">Discentes</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section class="commands">
+        <h2>Principais Comandos do Git</h2>
+        <dl>
+          <dt><strong>git init</strong></dt>
+          <dd>Inicializa um novo repositório Git.</dd>
+
+          <dt><strong>git clone [url]</strong></dt>
+          <dd>Clona um repositório remoto para o seu computador local.</dd>
+
+          <dt><strong>git branch</strong></dt>
+          <dd>Lista todas as branches no repositório. Usado com argumentos adicionais para criar ou excluir branches.</dd>
+
+          <dt><strong>git checkout [branch]</strong></dt>
+          <dd>Muda para a branch especificada e atualiza o diretório de trabalho para coincidir com aquela branch.</dd>
+
+          <dt><strong>git status</strong></dt>
+          <dd>Exibe o status das modificações no repositório.</dd>
+
+          <dt><strong>git diff</strong></dt>
+          <dd>Mostra as diferenças entre commits, branches e arquivos.</dd>
+
+          <dt><strong>git add [arquivo]</strong></dt>
+          <dd>Adiciona arquivos ao índice (staging area).</dd>
+
+          <dt><strong>git commit -m "mensagem"</strong></dt>
+          <dd>Registra as alterações no repositório com uma mensagem descritiva.</dd>
+
+          <dt><strong>git push [repositório] [branch]</strong></dt>
+          <dd>Envia as alterações para o repositório remoto.</dd>
+
+          <dt><strong>git pull</strong></dt>
+          <dd>Atualiza o repositório local com as alterações do repositório remoto.</dd>
+
+          <dt><strong>git revert [commit]</strong></dt>
+          <dd>Reverte um commit específico, criando um novo commit que desfaz as alterações.</dd>
+
+          <dt><strong>git merge [branch]</strong></dt>
+          <dd>Mescla uma branch com outra.</dd>
+
+          <dt><strong>git stash</strong></dt>
+          <dd>Armazena temporariamente alterações no diretório de trabalho que não estão prontas para serem commitadas.</dd>
+
+          <dt><strong>git rm [arquivo]</strong></dt>
+          <dd>Remove arquivos do diretório de trabalho e do índice.</dd>
+
+          <dt><strong>git config</strong></dt>
+          <dd>Define configurações do Git, como e-mail e nome de usuário.</dd>
+
+          <dt><strong>git reset [commit]</strong></dt>
+          <dd>Reseta o índice e o diretório de trabalho para um estado anterior.</dd>
+
+          <dt><strong>git remote</strong></dt>
+          <dd>Gerencia conexões com repositórios remotos.</dd>
+
+          <dt><strong>git fetch [repositório]</strong></dt>
+          <dd>Obtém alterações de um repositório remoto, mas não mescla com a branch atual.</dd>
+
+          <dt><strong>git show [objeto]</strong></dt>
+          <dd>Mostra vários tipos de objetos do Git (blobs, trees, tags e commits).</dd>
+
+          <dt><strong>git help [comando]</strong></dt>
+          <dd>Mostra a documentação de um comando específico do Git.</dd>
+
+          <dt><strong>git rebase [branch]</strong></dt>
+          <dd>Move ou combina uma sequência de commits para um novo commit base.</dd>
+
+          <dt><strong>git blame [arquivo]</strong></dt>
+          <dd>Mostra o que revisou cada linha de um arquivo pela última vez.</dd>
+
+          <dt><strong>git tag [nome]</strong></dt>
+          <dd>Cria uma tag anotada (versão marcada) para um commit.</dd>
+        </dl>
+      </section>
+    </main>
+
+    <script src="mobile-navbar.js"></script>
+  </body>
+</html>
